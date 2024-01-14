@@ -1,0 +1,234 @@
+* {
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+}
+.cler{
+    clear: both;
+}
+main{
+
+}
+
+/*Being header*/
+.header{
+    min-height: 50px;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    top:0;
+    left: 0;
+    right: 0;
+    z-index: 9999}
+.nav-list{
+    padding-left: 0;
+    margin: auto 14px;
+}
+.nav-item {
+    margin: 0 10px;
+    display: inline-block;
+    list-style: none;
+}
+
+a{
+    color: black;
+    letter-spacing: 6px;
+    font-size: 20px;
+    text-decoration: none;
+    box-shadow: inset;
+    padding: 14px 12px;
+}
+a:hover{
+    opacity: 0.8;
+    box-shadow: 0 0 0.5px;
+    background-color:#ccc ;
+}
+
+/*End header*/
+
+/*Being siler*/
+.slider {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 90vh; /* Điều chỉnh độ cao của slider */
+    margin-top: 48px;
+    background: url('/huuthanhproject/assets/img/picture1.jpg');
+    background-size: cover; /* Đảm bảo ảnh bao phủ toàn bộ slider */
+    background-position: center;
+    filter: drop-shadow(1px 1px 2px grey);
+}
+
+.slider .text-content{
+    float: left;
+    width: 25%;
+    font-size: 34px;
+    color:#fff;
+    letter-spacing: 6px;
+}
+
+.contetn{
+   
+}
+.project-text{
+    letter-spacing: 4px;
+    padding-top: 58px;
+    padding-bottom: 30px;
+    padding-left: 20px;
+    font-size: 24px;
+    position: relative;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #ccc;
+}
+
+.project-itemlist{
+    float: left;
+    width: 25%;
+    text-align:center;
+}
+
+.name-house{
+    font-size:15px ;
+    color:#333;
+    margin: 20px;
+}
+
+.list-houses{
+    width: 280px;
+    margin-top: 15px;
+    border-radius: 4px;
+}
+
+
+.about__member-img-work{
+    padding-top: 550px;
+}
+
+.content-about{
+    font-size: 24px;
+    padding-left: 20px;
+    letter-spacing: 6px;
+}
+
+.about-text{
+    border-top: 1px solid #ccc;
+    padding-top: 48px;
+    font-size: 18px;
+    padding-left: 20px;
+}
+.about__member{
+    padding-top: 30px;
+    float: left;
+    width: 25%;
+    padding-left: 12px;
+    text-align: center;
+}
+
+.membe-img{
+    border-radius: 10px;
+    width: 300px;
+    margin-top: 15px;
+}
+.member-name{
+    padding-top: -100px;
+    font-size: 20px;
+}
+.member-work{
+    color: #ccc;
+    font-size: 20px;
+}
+.member-content{
+    font-size: 20px;
+}
+
+.member-contact{
+    padding: 10px 100px;
+    border: none;
+    cursor: pointer;
+}
+.member-contact:hover{
+    background-color: #ccc;
+}
+
+.content__contact{
+    padding-top: 550px;
+
+}
+.contact-person{
+    font-size: 24px;
+    padding-left: 20px;
+    letter-spacing: 6px;
+   
+}
+.contact-person__prpject{
+    border-top: 1px solid #ccc;
+    padding-top: 20px;
+    font-size: 18px;
+    padding-left: 20px;
+}
+.contact-from{
+    padding-left: 20px;
+
+}
+.form-control{
+    width: 96%;
+    height: 40px;
+    margin-bottom: 20px;
+}
+.contact-send{
+    padding: 8px 60px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor:pointer;
+}
+.contact-send:hover{
+    background-color: #ccc;
+}
+
+.content__map{
+    padding-top: 60px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-bottom: -18px;
+}
+.content__map-img{
+    width: 100%;
+}
+
+#footer{
+    background-color:black;
+    margin-top: 20px;
+    padding: 20px 30px;
+    
+}
+.socials-list{
+    
+}
+.copyrghit{
+    text-align: center;
+    color: #fff;
+}
+.copyrghit-link{
+    color: #fff;
+    font-size: 20px;
+    letter-spacing: 2px;
+}
+.socials-list{
+    text-align: center;
+    cursor: pointer;
+    letter-spacing: 5px;
+    color: #fff;
+}
+.socials-list:hover{
+    color: #fff;
+}

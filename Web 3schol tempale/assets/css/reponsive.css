@@ -1,0 +1,68 @@
+/* Mobile & Tablet */
+@media (max-width : 1023px){
+    .hide-on-mobile-tablet{
+        display: none;
+    }
+    .nav__bars-btn{
+        display: block;
+    }
+
+}
+
+/* Tablet */
+@media (min-width: 740px) and (max-width: 1023px){
+    .hide-on-tablet{
+        display: none;
+    }
+}
+
+/* Mobile */
+@media (max-width: 739px){
+    .hide-on-mobile{
+        display: none;
+    }
+    .sider__url-img.sidler__url-img-mobile{
+        width: 100%;
+        height:580px;
+    }
+    .slider__url-text.silder__url-text-mobile{
+        position: absolute;
+        top:480px;
+        left: 20px;
+        color: #fff;
+        font-size: 28px;
+        background-color: black;
+        display: block;
+        padding: 10px;
+    }
+    .contet__member-infor{
+        text-align: center;
+    }
+    .content__member-name{
+        padding-left: 100px;
+    }
+    .content__member-job{
+        padding-left: 100px;
+    }
+    .content__member-name.content__member-name--last-child{
+        padding-right: 100px;
+    }
+    .content__member-job.content__member-job--last-child{
+        padding-right: 120px;
+    }
+    .content__project-infor{
+        margin-top: -100px;
+    }
+
+    .contact__action-infor{
+        width:310px;
+        margin-left: 30px;
+    }
+    
+}
+
+@media (min-width:1024px){
+    .nav__bars-btn{
+        display: none;
+    }
+}

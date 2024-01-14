@@ -1,0 +1,417 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Photographe</title>
+    <link rel="icon" href="./assets/img/icon.png">
+    <link rel="stylesheet" href="./assets/css/grid.css">
+    <link rel="stylesheet" href="./assets/css/reponsive.css">
+    <link rel="stylesheet" href="./assets/css/main.css">
+    <link rel="stylesheet" href="./assets/fontawesome-free-6.5.1-web/css/all.min.css">
+</head>
+
+<body>
+    <div class="main">
+        <header class="header__nav">
+            <!-- Nav MOBILE & TABLET -->
+
+            <label for="nav-mobile-input" class="nav__bars-btn">
+                <i class="nav__bars-btn-icon fa-solid fa-bars"></i>
+            </label>
+
+            <input type="checkbox" name="" class="nav__input" id="nav-mobile-input">
+
+            <label for="nav-mobile-input"  class="nav__overlay"></label>
+            <nav class="nav__mobile">
+                <label for="nav-mobile-input" class="nav__mobile-close">
+                    <i class="nav__mobile-close-icon fa-regular fa-circle-xmark"></i> 
+                </label>
+                <ul class="nav__mobile-list">
+                    <li>
+                        <a href="#team" class="nav__mobile-link">Team</a>
+                    </li>
+                    <li>
+                        <a href="#work" class="nav__mobile-link">Work</a>
+                    </li>
+                    <li>
+                        <a href="#price" class="nav__mobile-link">Price</a>
+                    </li>
+                    <li>
+                        <a href="#contact" class="nav__mobile-link">Contacts</a>
+                    </li>
+                    <li>
+                        <a href="#" class="nav__mobile-link">Search</a>
+                    </li>
+                </ul>
+            </nav>
+
+            <!-- Nav PC -->
+            <div class="header__navbar hide-on-mobile-tablet">
+                <ul class="header__nav-item">
+                    <li class="header__nav-list">
+                        <a href="#" class="header__nav-link">
+                            <i class="header__nav-icon fa-solid fa-house"></i>Logo
+                        </a>
+                    </li>
+                    <li class="header__nav-list">
+                        <a href="#team" class="header__nav-link">
+                            Team
+                        </a>
+                    </li>
+                    <li class="header__nav-list">
+                        <a href="#work" class="header__nav-link">
+                            Work
+                        </a>
+                    </li>
+                    <li class="header__nav-list">
+                        <a href="#price" class="header__nav-link">
+                            Price
+                        </a>
+                    </li>
+                    <li class="header__nav-list">
+                        <a href="#contact" class="header__nav-link">
+                            Contact
+                        </a>
+                    </li>
+        
+                    <li class="header__nav-list">
+                        <a href="#" class="header__nav-link">
+                           Dropdown <i class="header__nav-icon fa-solid fa-caret-down"></i>
+                            <ul class="header__nav-dropdown-list">
+                                <li class="header__nav-dropdown-item">
+                                    Merchandise
+                                </li>
+                                <li class="header__nav-dropdown-item">
+                                    Extras
+                                </li>
+                                <li class="header__nav-dropdown-item">
+                                    Media
+                                </li>
+                            </ul>
+                        </a>
+                    </li>
+        
+                    <div class="header__nav-search">
+                        <a href="#" class="header__nav-serach-link"><i class="hader__nav-search-icon fa-solid fa-magnifying-glass"></i></a>
+                    </div>
+                </ul>
+            </div>
+        </header>
+
+        <div  class="silder">
+            <div  class="slider__url-item">
+                <img src="./assets/img/sailboat.jpg" alt="Anh 1" class="sider__url-img sidler__url-img-mobile">
+                <a class="slider__url-text silder__url-text-mobile">
+                    lailadgchouse.css
+                </a>
+            </div>
+        </div>
+
+        <!--Content-->
+        <div class="grid wide">
+            <div  id="team" class="content__section-tem">
+                <h3 class="content__member-header">
+                    OUR TEAM
+                </h3>
+                <p class="content__member-slogan">
+                    Meet the team - our office rats:
+                </p>
+                <div class="row">
+                    <div class="col l-3 m-6 c-12">
+                        <div class="contet__member-infor">
+                            <img src="./assets/img/mem1.jpg" alt="Member" class="content__member-img">
+                            <h2 class="content__member-name">HuuThanh</h2>
+                            <p class="content__member-job">Frontend Developer</p>
+                        </div>
+                    </div>
+                    <div class="col l-3 m-6 c-12">
+                        <div class="contet__member-infor">
+                            <img src="./assets/img/mem2.jpg" alt="Member" class="content__member-img">
+                            <h2 class="content__member-name">Rebecca Flex</h2>
+                            <p class="content__member-job">Boss</p>
+                        </div>
+                    </div>
+                    <div class="col l-3 m-6 c-12">
+                        <div class="contet__member-infor">
+                            <img src="./assets/img/mem3.jpg" alt="Member" class="content__member-img">
+                            <h2 class="content__member-name">Jan Ringo</h2>
+                            <p class="content__member-job">BackEnd Developer</p>
+                        </div>
+                    </div>
+                    <div class="col l-2 m-6 c-12">
+                        <div class="contet__member-infor">
+                            <img src="./assets/img/mem4.jpg" alt="Member" class="content__member-img">
+                            <h2 class="content__member-name content__member-name--last-child ">Kai Ringo</h2>
+                            <p class="content__member-job  content__member-job--last-child">Fixer</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--Content Project-->
+        <div id="work" class="content__project-background">
+            <div class="grid">
+                <div class="row">
+                    <div class="col l-2">
+                        <div  class="content__proect-text">
+                            <h3 class="content_project-text-header">
+                                OUR WORK
+                            </h3>
+                            <p class="content__project-text-body">
+                                Lorem ipsum dolor sit amet, 
+                                consectetur adipiscing elit, 
+                                sed do eiusmod tempor incididunt ut 
+                                labore et dolore magna aliqua. Ut enim ad minim veniam, 
+                                quis nostrud exercitation ullamco laboris nisi ut aliquip ex.
+                                Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                            </p>
+                        </div>
+                    </div>
+                    
+                    <div class="col l-3">
+                        <div class="content__project-infor">
+                            <img src="./assets/img/snow.jpg" alt="" class="content__project-img">
+                            <h3 class="content__project-infor-header">
+                                Himalaya
+                            </h3>
+                            <div class="content__project-infor-body">
+                                Photo: HuuGiang
+                            </div>
+                            <div class="content__project-infor-body">
+                                Country: VietNam
+                            </div>
+                            <div class="content__project-infor-body">
+                                Job: Photographer
+                            </div>
+                            <div class="content__project-infor-body">
+                                Numberphone: +03686868
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col l-3">
+                        <div class="content__project-infor">
+                            <img src="./assets/img/lights.jpg" alt="" class="content__project-img">
+                            <h3 class="content__project-infor-header">
+                                Aurora Borealis
+                            </h3>
+                            <div class="content__project-infor-body">
+                                Photo: HuuGiang
+                            </div>
+                            <div class="content__project-infor-body">
+                                Country: VietNam
+                            </div>
+                            <div class="content__project-infor-body">
+                                Job: Photographer
+                            </div>
+                            <div class="content__project-infor-body">
+                                Numberphone: +036868123
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col l-3">
+                        <div class="content__project-infor">
+                            <img src="./assets/img/sailboat.jpg" alt="" class="content__project-img">
+                            <h3 class="content__project-infor-header">
+                                Dolomite
+                            </h3>
+                            <div class="content__project-infor-body">
+                                Photo: LioneMessi
+                            </div>
+                            <div class="content__project-infor-body">
+                                Country: Argentina
+                            </div>
+                            <div class="content__project-infor-body">
+                                Job: GOAT
+                            </div>
+                            <div class="content__project-infor-body">
+                                Numberphone: +01686868
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--Content Price-->
+        <div id="price" class="content__section-price">
+            <div class="grid wide">
+                <h3 class="content__member-header">
+                    PRICING
+                </h3>
+                <p class="content__member-slogan">
+                    Choose a pricing plan that fits your needs.
+                </p>
+                <div class="row">
+                    <div class="l-4">
+                        <div class="cotent__price-backgruond">
+                            <h3 class="price-header">
+                                Basic
+                            </h3>
+                            <div class="content__price-storage">
+                                <b>10GB</b> Storage
+                            </div>
+                            <div class="content__price-email">
+                                <b>10</b> Emails
+                            </div>
+                            <div class="content__price-domain">
+                               <b> 10</b> Domains
+                            </div>
+                            <div class="content__price-sup">
+                                <b>Endless</b> Support
+                            </div>
+                            <div class="content__price-money">
+                                <i class="price-money-icon fa-solid fa-dollar-sign"></i> 10
+                                <p>per month</p>
+                            </div>
+    
+                            <div class="content__price-btn-backgruond">
+                                <button class="content__price-btn">
+                                    <i class="price-btn-check fa-solid fa-check"></i> Sign Up
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+    
+                    <div class="l-4">
+                        
+                            <div class="cotent__price-backgruond">
+                                <h3 class="price-header price-header-diff">
+                                    Pro
+                                </h3>
+                                <div class="content__price-storage">
+                                    <b>25GB</b> Storage
+                                </div>
+                                <div class="content__price-email">
+                                    <b>25</b> Emails
+                                </div>
+                                <div class="content__price-domain">
+                                    <b>25</b> Domains
+                                </div>
+                                <div class="content__price-sup">
+                                    <b>Endless</b> Support
+                                </div>
+                                <div class="content__price-money">
+                                    <i class="price-money-icon fa-solid fa-dollar-sign"></i> 25
+                                    <p>per month</p>
+                                </div>
+                                <div class="content__price-btn-backgruond">
+                                    <button class="content__price-btn">
+                                        <i class="price-btn-check fa-solid fa-check"></i> Sign Up
+                                    </button>
+                                </div>
+                        </div>
+                    </div>
+    
+                    <div class="l-4">
+                            <div class="cotent__price-backgruond">
+                                <h3 class="price-header">
+                                    Premium
+                                </h3>
+                                <div class="content__price-storage">
+                                    <b>50GB</b> Storage
+                                </div>
+                                <div class="content__price-email">
+                                    <b>50</b> Emails
+                                </div>
+                                <div class="content__price-domain">
+                                    <b>50</b> Domains
+                                </div>
+                                <div class="content__price-sup">
+                                    <b>Endless</b> Support
+                                </div>
+                                <div class="content__price-money">
+                                    <i class="price-money-icon fa-solid fa-dollar-sign"></i> 50
+                                    <p>per month</p>
+                                </div>
+                                <div class="content__price-btn-backgruond">
+                                    <button class="content__price-btn">
+                                        <i class="price-btn-check fa-solid fa-check"></i> Sign Up
+                                    </button>
+                                </div>
+                            </div>
+                    </div>
+                </div>
+            </div>
+    
+        </div>
+       
+        <!--Content Contacts-->
+        <div class="grid">
+            <div id="contact" class="content__contact-background">
+                <div class="row">
+                    <div class="l-6">
+                        <div  class="content__contacts-infor">
+                            <h3 class="content__contacts-infor-header">
+                                Contact Us
+                            </h3>
+                            <div class="content__contacs-text">
+                                Address
+                            </div>
+                            <div class="content__contacs-solgan">
+                                Swing by for a cup of coffee, or whatever.
+                            </div>
+                            <div class="content__contacs-place">
+                                <i class="content__contacs-place-icon fa-solid fa-location-dot"></i> Chicago, US
+                            </div>
+                            <div class="content__contacs-place">
+                                <i class="content__contacs-place-icon fa-solid fa-phone"></i> +00 1515151515
+                            </div>
+                            <div class="content__contacs-place">
+                                <i class="content__contacs-place-icon fa-solid fa-envelope"></i> test@test.com
+                            </div>
+                        </div>
+                    </div>
+    
+                    <div class="l-6">
+                        <form class="contact__action-infor" action="">
+                            <label for="name" class="contact__input-header">Name</label><br>
+                            <input type="text" id="fname" name="name" class="contact__input"><br>
+
+                            <label for="email" class="contact__input-header">Emails</label><br>
+                            <input type="email" id="email" name="name" class="contact__input"><br>
+
+                            <label for="Message" class="contact__input-header">Message</label><br>
+                            <input type="text" id="Message" name="name" class="contact__input"><br>
+
+                            <input type="checkbox" id="vehicle" name="vehicle1" value="Bike" class="checkbox__like">
+                            <label for="vehicle" class="contact__checkbox"> I Like it!</label><br>
+
+                            <button class="contac__btn-submit">
+                                SEND
+                            </button>
+                        </form>
+                    </div>
+                </div>
+
+                <!--MAP-->
+                <div class="content__map">
+                    <img src="./assets/img/map.jpg" alt="MAP" class="content__map-img">
+                </div>
+            </div>
+
+        </div>
+
+        <!--Footer-->
+        <footer class="footer">
+            <div class="footer-text">
+                Follow Us
+            </div>
+            <div class="footer-social">
+                <i class="footer-social-icon fa-brands fa-facebook"></i>
+                <i class="footer-social-icon fa-brands fa-instagram"></i>
+                <i class="footer-social-icon fa-brands fa-linkedin"></i>
+                <i class="footer-social-icon fa-brands fa-youtube"></i>
+                <i class="footer-social-icon fa-brands fa-github"></i>
+            </div>
+            <div class="footer-copyfight">
+                Powered by <a href="https://www.facebook.com/profile.php?id=100046281706417&mibextid=LQQJ4d">HuuThanh.css</a>
+            </div>
+        </footer>
+        <script src="./assets/css/js.js"></script>
+    </div>    
+</body>
+</html>
